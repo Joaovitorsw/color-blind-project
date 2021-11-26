@@ -1,0 +1,67 @@
+body,
+html,
+.main {
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.color-picker {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  p {
+    margin-left: 10px;
+  }
+}
+
+.examples {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+cbp-slideshow {
+  margin-bottom: 20px;
+}
+
+::ng-deep .mat-form-field-flex {
+  background-color: white !important;
+}
+
+svg {
+  display: none;
+}
+
+@media screen and (min-width: 800px) {
+  body,
+  html,
+  .main {
+    width: 100vw;
+    height: 100vh;
+  }
+  .examples {
+    display: flex;
+    flex-direction: row;
+  }
+  .options {
+    flex-direction: row;
+    width: 100%;
+    max-width: 592px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  cbp-slideshow {
+    margin-bottom: 0;
+  }
+}
