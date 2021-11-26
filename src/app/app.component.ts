@@ -25,6 +25,7 @@ export class AppComponent {
   filter: any;
 
   constructor() {
+    this.color = '#FFF';
     this.selected = 'normal';
     this.actuallyFilter = object[this.selected];
   }
