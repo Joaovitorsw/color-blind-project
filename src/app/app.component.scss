@@ -1,9 +1,3 @@
-body,
-html,
-.main {
-  background: linear-gradient(to right, #e0eafc, #cfdef3);
-}
-
 .main {
   display: flex;
   flex-direction: column;
@@ -47,8 +41,7 @@ svg {
 
 @media screen and (min-width: 800px) {
   body,
-  html,
-  .main {
+  html {
     height: 100vh;
   }
   .examples {
