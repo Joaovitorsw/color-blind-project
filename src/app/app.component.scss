@@ -3,9 +3,7 @@ html,
 .main {
   background: linear-gradient(to right, #e0eafc, #cfdef3);
 }
-h1 {
-  font-size: 24px;
-}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -14,6 +12,10 @@ h1 {
 .options {
   display: flex;
   flex-direction: column;
+}
+
+h1 {
+  font-size: 24px;
 }
 
 .color-picker {
@@ -44,6 +46,11 @@ svg {
 }
 
 @media screen and (min-width: 800px) {
+  body,
+  html,
+  .main {
+    height: 100vh;
+  }
   .examples {
     display: flex;
     flex-direction: row;
