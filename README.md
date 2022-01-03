@@ -1,27 +1,187 @@
-# ColorBlindProject
+<div align="right">
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.6.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e3c52228-d2d0-4ecd-a86e-d5663fc30ca7/deploy-status)](https://joaovitorsw-angular-pokedex.netlify.app/deploys)
 
-## Development server
+</div>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<div align="right">
+  
+  [![Portuguese](https://cdn-icons-png.flaticon.com/32/3022/3022546.png)](README.md)
+  
+</div>
 
-## Code scaffolding
+<p align="center">
+  <img alt="poke-app" src=".github/color-blind-app.png" width="350px" height="180px"/>
+</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<p align="center"> 
+  <img alt="Top Language" src="https://img.shields.io/github/languages/top/Joaovitorsw/color-blind-project?color=3498db&style=for-the-badge">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Joaovitorsw/color-blind-project?color=3498db&style=for-the-badge&label=Ultimo%20Commit">   
+  <a href="https://github.com/Joaovitorsw">
+    <img alt="Developed by João Vitor" src="https://img.shields.io/badge/Developer-João_Vitor-%3498db?color=3498db&style=for-the-badge&label=Desenvolvedor">
+  </a>  
+  <img alt="Project License" src="https://img.shields.io/apm/l/vim-mode?style=for-the-badge&label=licen%C3%A7a"/>   
+  <img alt="Project Status" src="https://camo.githubusercontent.com/e1242aef6552b4e9b2d6764e66eb55f29758cb1e6d332b74efa89b3144339b25/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f6e636c75c3ad646f2d253334393864623f636f6c6f723d677265656e267374796c653d666f722d7468652d6261646765266c6162656c3d537461747573">
 
-## Build
+</p>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<p align="center">
+ <a href="#eye_speech_bubble-visualizar">Visualizar</a> •
+ <a href="#information_source-sobre">Sobre</a> •
+ <a href="#arrow_forward-executar">Executar</a> •
+ <a href="#hammer_and_wrench-tecnologias">Tecnologias</a> • 
+ <a href="#brain-conceitos-aplicados">Conceitos</a> •
+ <a href="#sparkles-funcionalidades">Funcionalidades</a> •
+ <a href="#boy-autor">Autor</a> •
+ <a href="#balance_scale-licença">Licença</a>
+</p>
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## :eye_speech_bubble: **Visualizar**
 
-## Running end-to-end tests
+<div align="center">
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Deploy do front-end efetuado no [Netlify](https://www.netlify.com/) para visualizar: [Clique Aqui](https://joaovitorsw-color-blind-project.netlify.app/)
 
-## Further help
+|                             :computer:Desktop                             |                             :iphone: Mobile                              |
+| :-----------------------------------------------------------------------: | :----------------------------------------------------------------------: |
+| <kbd><img src=".github/previews/desktop-preview.jpg" alt="Tablet"/></kbd> | <kbd><img src=".github/previews/mobile-preview.jpg" alt="Mobile"/></kbd> |
+|                                                                           |
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+</div>
+  
+---
+## :information_source: _Sobre_
+
+<div align="center">
+
+Aplicação feita para simular os tipos de daltonismo.
+
+---
+
+</div>
+
+</div>
+
+## :arrow_forward: **Executar**
+
+<div align="center">
+
+Para executar esse projeto você precisa baixar este repositório, ter o Gerenciador de Pacotes do Node ([`NPM`](https://www.npmjs.com/get-npm)) ou o Gerenciador de Pacotes YARN ([`YARN`](https://yarnpkg.com/getting-started)) instalado.
+
+Abra o prompt de comando no diretório do projeto na pasta <code>color-blind-project</code>, e execute os seguintes códigos:
+
+<details>
+  <summary><i>com <b>npm</b></i></summary>
+  
+  ```bash
+  # Instalar dependências
+  $ npm install ou npm i
+
+# Iniciar o servidor de desenvolvimento
+
+$ npm start
+
+````
+
+</details>
+
+<details>
+<summary><i>com <b>yarn</b></i></summary>
+
+```bash
+# Instalar dependências
+$ yarn install
+
+# Iniciar o servidor de desenvolvimento
+$ yarn start
+
+````
+
+</details>
+
+> ⚠️ O servidor de desenvolvimento será iniciado na porta: 1234 - Acesse <http://localhost:4200>
+
+</div>
+
+---
+
+## :hammer_and_wrench: _Tecnologias_
+
+<div align="center">
+
+|                         :globe_with_meridians: FrontEnd                          |
+| :------------------------------------------------------------------------------: |
+|                        [Angular 12](https://angular.io/)                         |
+|               [Angular Material 12](https://material.angular.io/)                |
+|              [NGX Colors](https://www.npmjs.com/package/ngx-colors)              |
+| [Hex Color To Color Name](https://www.npmjs.com/package/hex-color-to-color-name) |
+|             [Color Blind](https://www.npmjs.com/package/color-blind)             |
+|               [One Color](https://www.npmjs.com/package/onecolor)                |
+|                [Typescript 4.5](https://www.typescriptlang.org/)                 |
+|                          [SCSS](https://sass-lang.com/)                          |
+
+</div>
+
+---
+
+## :brain: _Conceitos Aplicados_
+
+<div align="center">
+
+|   :page_facing_up:   |
+| :------------------: |
+|     Mobile First     |
+|     Media Query      |
+|    Atomic Commit     |
+| Conventional Commits |
+|       Flexbox        |
+|         Grid         |
+|    API Consuming     |
+
+</div>
+
+---
+
+## :sparkles: _Funcionalidades_
+
+<div align="center">
+
+|                         :page_facing_up:                          |
+| :---------------------------------------------------------------: |
+| Converte as cores da imagem para o tipo selecionado de daltonismo |
+|       Converte a cor para o tipo selecionado de daltonismo        |
+
+</div>
+
+---
+
+## :boy: _Autor_
+
+<div align="center">
+
+<a href="https://github.com/Joaovitorsw">
+ <img src="https://avatars.githubusercontent.com/u/86388366?s=400&u=d21331492a58a33c31dd248c2cac51f177622ae2&v=4"  width="100px;" alt="Profile Photo João Vitor Pereira dos Santos"/>
+ <br/>
+ <sub><b>João Vitor Pereira dos Santos</b></sub>
+</a>
+
+Desenvolvido com ❤️ por João Vitor Pereira dos Santos 👋🏽 Meus Contatos!
+
+[![Linkedin Badge](https://img.shields.io/badge/-João_Vitor-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-vitor-pereira-dos-santos-10796b169/)
+[![Github Badge](https://img.shields.io/badge/-João_Vitor-000?style=flat-square&logo=Github&logoColor=white)](https://github.com/Joaovitorsw)
+[![Outlook Badge](https://img.shields.io/badge/-João_Vitor-0078d4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:joaovitorswbr@gmail.com)
+
+</div>
+
+---
+
+## :balance_scale: _Licença_
+
+<div align="center">
+
+Copyright ©️ 2021 [João Vitor Pereira dos Santos ](https://github.com/Joaovitorsw).<br />
+This project is licensed by [MIT](./LICENSE).
+
+</div>
